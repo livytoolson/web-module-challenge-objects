@@ -12,13 +12,15 @@ function createMenuItem(name, cost, category){
     cost: cost,
     category: category,
   };
-  return obj;
+  return obj
+  // console.log(obj)
 }
-createMenuItem("Kale Salad", 11, "Lunch")
+createMenuItem("Kale Salad", 11, "Lunch");
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
-
-
+createMenuItem("Peach Shake", 5, "Dessert")
+createMenuItem("Chicken Wrap", 7, "Lunch")
+createMenuItem("Acai Bowl", 7, "Breakfast")
 
 /* Task 2: You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to your burger object that automatically calculates price given a string as a parameter. 
 
